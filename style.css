@@ -9,28 +9,31 @@
 	color: #fff;
 	font-family: 'Montserrat';
 }
+
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar {
-  width: 8px;
+	width: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background:tranparent; 
+	background: tranparent;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #3b97e6; 
-  border-radius:10px;
+	background: #3b97e6;
+	border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background:#3b77ee; 
+	background: #3b77ee;
 }
+
 /* Landing page       */
 .landing {
 	height: 100vh;
@@ -220,7 +223,7 @@ img:hover {
 		perspective: 350px;
 	}
 
-	
+
 }
 
 .carousel {
@@ -245,6 +248,16 @@ img:hover {
 	left: -1%;
 	transition: 1s;
 	display: none;
+}
+
+@media (max-width:700px) {
+	.carousel-caption h3 {
+		font-size: 20px;
+	}
+
+	.carousel-caption {
+		margin: auto 10px;
+	}
 }
 
 .carousel-item:hover .carousel-caption {
@@ -385,13 +398,14 @@ ul a li {
 	content: '\f00d';
 }
 
-.menu-toggle,.menu-toggle.active {
+.menu-toggle,
+.menu-toggle.active {
 	width: 40px;
 	height: 40px;
 	margin: auto;
-	position:absolute;
+	position: absolute;
 	top: 30px;
-	right:0;
+	right: 0;
 }
 
 @media (max-width:888px) {
@@ -429,5 +443,23 @@ ul a li {
 @media (max-height:600px) {
 	small {
 		display: none;
+	}
+}
+
+@media (max-width:500px) {
+	.content h1 {
+		font-size: 50px;
+	}
+
+	.content small {
+		font-size: 20px;
+	}
+
+	.content {
+		left: 0;
+	}
+
+	h3 {
+		font-size: 25px;
 	}
 }
