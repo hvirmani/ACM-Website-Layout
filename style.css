@@ -266,6 +266,7 @@ img:hover {
 
 h3 {
 	overflow: hidden;
+	font-size: 35px;
 }
 
 /*		Footer area*/
@@ -280,7 +281,7 @@ h3 {
 }
 
 .media_icon i {
-	font-size: 60px;
+	font-size: 40px;
 	margin: 10px;
 }
 
